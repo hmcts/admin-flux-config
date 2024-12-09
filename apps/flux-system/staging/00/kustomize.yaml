@@ -7,8 +7,8 @@ spec:
   path: ./clusters/staging/00
   postBuild:
     substitute:
-      ENVIRONMENT: "stg"
-      WI_ENVIRONMENT: "stg"
+      ENVIRONMENT: "staging"
+      WI_ENVIRONMENT: "staging"
       CLUSTER: "00"
       GIT_NAMESPACE: "dev-team"
       GIT_REPO: "dev-team"
