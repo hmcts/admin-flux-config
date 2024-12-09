@@ -6,9 +6,9 @@ metadata:
 spec:
   path: ./clusters/staging/00
   sourceRef:
-  kind: GitRepository
-  name: dev-team
-  namespace: dev-team
+    kind: GitRepository
+    name: dev-team
+    namespace: dev-team
   postBuild:
     substitute:
       ENVIRONMENT: "stg"
