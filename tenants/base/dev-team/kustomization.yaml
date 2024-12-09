@@ -3,4 +3,4 @@ kind: Kustomization
 resources:
 - rbac.yaml
 - sync.yaml
-namespace: apps
+namespace: dev-team
