@@ -10,8 +10,8 @@ spec:
   prune: true
   sourceRef:
     kind: GitRepository
-    name: ${GIT_REPO}
-    namespace: ${GIT_NAMESPACE}
+    name: flux-system
+    namespace: flux-system
   patches:
     - patch: |-
         apiVersion: helm.toolkit.fluxcd.io/v2
@@ -49,5 +49,3 @@ spec:
       ENVIRONMENT: "${ENVIRONMENT}"
       CLUSTER: "\"${CLUSTER}\""
       CLUSTER_PATH: "${ENVIRONMENT}/${CLUSTER}"
-      GIT_NAMESPACE: "\"${GIT_NAMESPACE}\""
-      GIT_REPO: "\"${GIT_REPO}\""

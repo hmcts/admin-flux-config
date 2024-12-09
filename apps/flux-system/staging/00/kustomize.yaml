@@ -5,6 +5,10 @@ metadata:
   namespace: flux-system
 spec:
   path: ./clusters/staging/00
+  sourceRef:
+  kind: GitRepository
+  name: dev-team
+  namespace: dev-team
   postBuild:
     substitute:
       ENVIRONMENT: "stg"
