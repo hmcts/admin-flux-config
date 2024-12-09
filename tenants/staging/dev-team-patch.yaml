@@ -4,4 +4,4 @@ metadata:
   name: dev-team
   namespace: dev-team
 spec:
-  path: ./clusters/staging
+  path: ./clusters/staging/00
