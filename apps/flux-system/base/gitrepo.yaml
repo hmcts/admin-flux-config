@@ -9,6 +9,4 @@ spec:
   interval: 1m0s
   ref:
     branch: master
-  secretRef:
-    name: flux-system
   url: https://github.com/endakelly/admin-flux-config.git
