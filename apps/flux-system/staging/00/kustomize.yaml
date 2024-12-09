@@ -10,3 +10,5 @@ spec:
       ENVIRONMENT: "stg"
       WI_ENVIRONMENT: "stg"
       CLUSTER: "00"
+      GIT_NAMESPACE: "dev-team"
+      GIT_REPO: "dev-team"
