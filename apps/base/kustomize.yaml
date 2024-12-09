@@ -49,5 +49,5 @@ spec:
       ENVIRONMENT: "${ENVIRONMENT}"
       CLUSTER: "\"${CLUSTER}\""
       CLUSTER_PATH: "${ENVIRONMENT}/${CLUSTER}"
-      GIT_NAMESPACE: "${GIT_NAMESPACE}"
-      GIT_REPO: "${GIT_REPO}"
+      GIT_NAMESPACE: "\"${GIT_NAMESPACE}\""
+      GIT_REPO: "\"${GIT_REPO}\""
