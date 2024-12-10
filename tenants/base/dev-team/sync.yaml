@@ -22,7 +22,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m0s
-  path: ./
+  path: ./clusters/${ENVIRONMENT}/${CLUSTER}
   prune: false
   serviceAccountName: dev-team
   sourceRef:
