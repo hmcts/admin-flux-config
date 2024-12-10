@@ -3,13 +3,12 @@ apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
   name: dev-team
-  namespace: dev-team
+  namespace: flux-system
 spec:
   interval: 1m0s
   include:
     - repository:
         name: flux-system
-        namespace: flux-system
       fromPath: /apps
       toPath: /apps
   ref:
@@ -29,3 +28,4 @@ spec:
   sourceRef:
     kind: GitRepository
     name: dev-team
+    namespace: flux-system
