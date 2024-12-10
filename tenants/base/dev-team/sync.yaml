@@ -20,4 +20,4 @@ spec:
   sourceRef:
     kind: GitRepository
     name: dev-team
-prune: true
+  prune: true
