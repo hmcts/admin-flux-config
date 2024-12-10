@@ -17,7 +17,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m0s
-  path: ./apps
+  path: ./
   prune: false
   serviceAccountName: dev-team
   sourceRef:
