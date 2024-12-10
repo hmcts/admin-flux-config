@@ -3,4 +3,5 @@ kind: Kustomization
 resources:
 - rbac.yaml
 - sync.yaml
+- namespace.yaml
 namespace: flux-system
