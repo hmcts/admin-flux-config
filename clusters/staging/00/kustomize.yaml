@@ -10,5 +10,3 @@ spec:
       ENVIRONMENT: "staging"
       WI_ENVIRONMENT: "staging"
       CLUSTER: "00"
-      GIT_NAMESPACE: "dev-team"
-      GIT_REPO: "dev-team"
