@@ -9,8 +9,8 @@ spec:
   include:
     - repository:
         name: flux-system
-      fromPath: /apps
-      toPath: /apps
+      fromPath: /apps/flux-system
+      toPath: /apps/flux-system
   ref:
     branch: main
   url: https://github.com/endakelly/dev-flux-config
