@@ -3,5 +3,6 @@ kind: Kustomization
 namespace: flux-system
 resources:
   - ../base/dev-team
+  - ../base/namespaces
 patches:
   - path: dev-team-patch.yaml
