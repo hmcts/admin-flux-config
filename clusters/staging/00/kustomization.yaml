@@ -4,4 +4,4 @@ resources:
 - ../base
 
 patches:
-- path: ../../../apps/flux-system/staging/00/kustomize.yaml
+- path: kustomize.yaml
