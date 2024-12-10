@@ -1,0 +1,15 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: hello-kubernetes-charts
+  namespace: hello-kubernetes
+spec:
+  interval: 5m0s
+  url: https://github.com/paulbouwer/hello-kubernetes
+  ref:
+    branch: main
+  ignore: |
+    # exclude all
+    /*
+    # include deploy dir
+    !/deploy/helm

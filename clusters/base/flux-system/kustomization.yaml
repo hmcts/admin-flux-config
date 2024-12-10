@@ -3,5 +3,6 @@ kind: Kustomization
 resources:
 - gitrepo.yaml
 - gotk-components.yaml
+- hello-kubernetes.yaml
 - kustomize.yaml
 - tenants.yaml
