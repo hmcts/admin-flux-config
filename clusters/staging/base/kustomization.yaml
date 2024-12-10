@@ -4,7 +4,7 @@ resources:
   - ../../base/flux-system
 
 patches:
-- path: ../../../apps/base/kustomize.yaml
+- path: kustomize.yaml
   target:
     kind: Kustomization
     annotationSelector: hmcts.github.com/kustomize-defaults != disabled
