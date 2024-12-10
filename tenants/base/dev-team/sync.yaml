@@ -6,6 +6,11 @@ metadata:
   namespace: dev-team
 spec:
   interval: 1m0s
+  include:
+    - repository:
+        name: flux-system
+      fromPath: /apps
+      toPath: /apps
   ref:
     branch: main
   url: https://github.com/endakelly/dev-flux-config
