@@ -9,6 +9,7 @@ spec:
   include:
     - repository:
         name: flux-system
+        namespace: flux-system
       fromPath: /apps
       toPath: /apps
   ref:
