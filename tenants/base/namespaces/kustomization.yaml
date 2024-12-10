@@ -3,3 +3,6 @@ kind: Kustomization
 namespace: flux-system
 resources:
 - admin.yaml
+
+patches:
+- path: .././../clusters/staging/00/kustomize.yaml
