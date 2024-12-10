@@ -4,4 +4,4 @@ kind: Namespace
 metadata:
   labels:
     toolkit.fluxcd.io/tenant: dev-team
-  name: dev-team
+  name: ${NAMESPACE}
