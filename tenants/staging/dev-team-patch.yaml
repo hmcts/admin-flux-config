@@ -4,4 +4,4 @@ metadata:
   name: dev-team
   namespace: flux-system
 spec:
-  path: ./staging
+  path: ./clusters/staging
