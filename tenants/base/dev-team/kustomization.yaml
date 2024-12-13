@@ -5,3 +5,15 @@ resources:
 - namespace.yaml
 - rbac.yaml
 - sync.yaml
+
+configMapGenerator:
+  - name: tenant-config
+    literals:
+      - NAMESPACE=my-namespace
+vars:
+  - name: NAMESPACE
+    objref:
+      kind: ConfigMap
+      name: tenant-config
+    fieldref:
+      fieldpath: data.NAMESPACE
