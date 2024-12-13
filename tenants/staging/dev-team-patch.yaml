@@ -5,3 +5,8 @@ metadata:
   namespace: flux-system
 spec:
   path: ./staging
+  postBuild:
+    substitute:
+      ENVIRONMENT: "staging"
+      WI_ENVIRONMENT: "staging"
+      CLUSTER: "00"
