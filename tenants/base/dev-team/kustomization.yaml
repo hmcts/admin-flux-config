@@ -4,4 +4,4 @@ namespace: flux-system
 resources:
 - rbac.yaml
 - sync.yaml
-- namespace.yaml
+# - namespace.yaml
