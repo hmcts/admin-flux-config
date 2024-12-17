@@ -9,7 +9,7 @@ spec:
   sourceRef:
     kind: GitRepository
     name: flux-system
-  path: ./tenants/cft/base
+  path: ./tenants/cft/${ENVIRONMENT}
   prune: true
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
@@ -23,5 +23,5 @@ spec:
   sourceRef:
     kind: GitRepository
     name: flux-system
-  path: ./tenants/sds/base
+  path: ./tenants/sds/${ENVIRONMENT}
   prune: true
