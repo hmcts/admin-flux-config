@@ -15,7 +15,6 @@ metadata:
   name: dev2-team
   namespace: flux-system
 spec:
-  path: ./sds
   interval: 1m0s
   serviceAccountName: dev2-team
   sourceRef:
