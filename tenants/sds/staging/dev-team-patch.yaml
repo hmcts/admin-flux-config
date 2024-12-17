@@ -1,0 +1,13 @@
+apiVersion: kustomize.toolkit.fluxcd.io/v1
+kind: Kustomization
+metadata:
+  name: dev2-team
+  namespace: flux-system
+spec:
+  path: ./sds/staging
+  postBuild:
+    substitute:
+      ENVIRONMENT: "staging"
+      WI_ENVIRONMENT: "staging"
+      CLUSTER: "00"
+      KEYVAULT_ENVIRONMENT: "staging"
