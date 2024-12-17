@@ -15,6 +15,7 @@ metadata:
   name: dev-team
   namespace: flux-system
 spec:
+  path: ./cft
   interval: 1m0s
   serviceAccountName: dev-team
   sourceRef:
