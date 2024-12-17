@@ -1,7 +1,7 @@
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
 metadata:
-  name: cft-tenant
+  name: ${TENANT}-tenant
   namespace: flux-system
 spec:
   interval: 5m
@@ -9,19 +9,5 @@ spec:
   sourceRef:
     kind: GitRepository
     name: flux-system
-  path: ./tenants/cft/${ENVIRONMENT}
-  prune: true
----
-apiVersion: kustomize.toolkit.fluxcd.io/v1
-kind: Kustomization
-metadata:
-  name: sds-tenant
-  namespace: flux-system
-spec:
-  interval: 5m
-  serviceAccountName: kustomize-controller
-  sourceRef:
-    kind: GitRepository
-    name: flux-system
-  path: ./tenants/sds/${ENVIRONMENT}
+  path: ./tenants/${TENANT}/${ENVIRONMENT}
   prune: true
