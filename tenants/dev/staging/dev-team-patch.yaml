@@ -11,3 +11,4 @@ spec:
       WI_ENVIRONMENT: "staging"
       CLUSTER: "00"
       KEYVAULT_ENVIRONMENT: "staging"
+      TENANT: "dev"
