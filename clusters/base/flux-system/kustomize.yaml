@@ -6,7 +6,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 10m0s
-  path: ./clusters/${ENVIRONMENT}/${CLUSTER}
+  path: ./clusters/${TENANT}/${ENVIRONMENT}/${CLUSTER}
   prune: false
   sourceRef:
     kind: GitRepository
