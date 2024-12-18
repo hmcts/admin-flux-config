@@ -8,5 +8,5 @@ spec:
   serviceAccountName: dev-tenant
   sourceRef:
     kind: GitRepository
-    name: dev-tenant
+    name: dev-flux-config
   prune: true
