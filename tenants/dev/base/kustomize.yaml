@@ -11,4 +11,5 @@ spec:
     name: dev-flux-config
   prune: true
   postBuild:
-    TENANT: "dev"
+    substitute:
+      TENANT: "dev"
