@@ -3,7 +3,7 @@ metadata:
   name: hello-kubernetes
   namespace: admin5
   annotations:
-    traefik.ingress.kubernetes.io/router.tls: "true"
+    traefik.ingress.kubernetes.io/router.tls: "false"
 spec:
   ingressClassName: traefik
   rules:

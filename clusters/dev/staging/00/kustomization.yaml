@@ -6,4 +6,3 @@ resources:
 
 patches:
 - path: kustomize.yaml
-# - path: tenants.yaml
