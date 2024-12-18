@@ -4,4 +4,4 @@ resources:
 - gitrepo.yaml
 - gotk-components.yaml
 - kustomize.yaml
-# - tenants.yaml
+- tenants.yaml
