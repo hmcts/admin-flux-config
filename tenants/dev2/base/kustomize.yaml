@@ -5,10 +5,11 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m0s
-  serviceAccountName: dev2-team
+  serviceAccountName: dev-tenant
   sourceRef:
     kind: GitRepository
     name: dev2-flux-config
   prune: true
   postBuild:
-    TENANT: "dev2"
+    substitute:
+      TENANT: "dev2"

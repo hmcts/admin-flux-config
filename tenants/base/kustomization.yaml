@@ -3,6 +3,4 @@ kind: Kustomization
 namespace: flux-system
 resources:
 - ../../clusters/base/flux-system
-# - kustomize.yaml
-# - namespace.yaml
 - rbac.yaml

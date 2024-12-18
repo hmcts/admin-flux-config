@@ -1,12 +1,12 @@
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
 metadata:
-  name: tenants
+  name: dev2-tenant
   namespace: flux-system
 spec:
   interval: 1m0s
-  serviceAccountName: ${TENANT}
+  serviceAccountName: tenant-sa
   sourceRef:
     kind: GitRepository
-    name: ${TENANT}-flux-config
+    name: dev2-flux-config
   prune: true
