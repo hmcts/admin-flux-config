@@ -1,7 +1,8 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-- ../base
+  - ../base
+  - ../../../../apps/admin5/staging/00
 
 patches:
 - path: kustomize.yaml
