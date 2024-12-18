@@ -4,7 +4,7 @@ namespace: flux-system
 resources:
   - ../../base
   - dev-flux-config-repo.yaml
-  - dev-tenant.yaml
+  # - dev-tenant.yaml
 
 patches:
   - path: kustomize.yaml
