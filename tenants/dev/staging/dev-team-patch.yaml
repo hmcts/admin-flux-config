@@ -4,7 +4,7 @@ metadata:
   name: dev-team
   namespace: flux-system
 spec:
-  path: ./cft/staging
+  path: ./dev/staging
   postBuild:
     substitute:
       ENVIRONMENT: "staging"

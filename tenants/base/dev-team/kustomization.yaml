@@ -3,11 +3,6 @@ kind: Kustomization
 namespace: flux-system
 resources:
 - ../../../clusters/base/flux-system
-- blank-repo.yaml
-# - dev-flux-config-repo.yaml
-- dev2-flux-config-repo.yaml
+# - kustomize.yaml
 # - namespace.yaml
 - rbac.yaml
-
-patches:
-- path: kustomize.yaml
