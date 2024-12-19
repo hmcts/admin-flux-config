@@ -6,5 +6,5 @@ metadata:
 spec:
   interval: 1m0s
   ref:
-    branch: main
+    branch: DTSPO-12560/admin-flux-config
   url: https://github.com/hmcts/sds-flux-config
