@@ -3,10 +3,10 @@
 apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
-  name: flux-system
+  name: admin-flux-config
   namespace: flux-system
 spec:
   interval: 1m0s
   ref:
     branch: master
-  url: https://github.com/endakelly/admin-flux-config.git
+  url: https://github.com/hmcts/admin-flux-config.git

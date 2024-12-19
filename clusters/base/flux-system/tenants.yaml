@@ -8,6 +8,6 @@ spec:
   serviceAccountName: kustomize-controller
   sourceRef:
     kind: GitRepository
-    name: flux-system
+    name: admin-flux-config
   path: ./tenants/${TENANT}/${ENVIRONMENT}
   prune: true

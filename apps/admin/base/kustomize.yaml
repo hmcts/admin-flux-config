@@ -8,7 +8,7 @@ spec:
   prune: true
   sourceRef:
     kind: GitRepository
-    name: flux-system
+    name: admin-flux-config
   interval: 10m0s
   path: ./apps/admin/${ENVIRONMENT}/${CLUSTER}
   postBuild:
