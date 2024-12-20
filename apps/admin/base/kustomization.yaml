@@ -12,3 +12,17 @@ patches:
     target:
       kind: Namespace
       version: v1
+  - patch: |-
+      - op: replace
+        path: /metadata/name
+        value: admin
+    target:
+      kind: ServiceAccount
+      version: v1
+  - patch: |-
+      - op: replace
+        path: /metadata/namespace
+        value: admin
+    target:
+      kind: ServiceAccount
+      version: v1
