@@ -6,4 +6,4 @@ metadata:
 spec:
   postBuild:
     substitute:
-      WORKLOAD_IDENTITY_ID: "6de71718-7f94-41f5-a8cc-c212ee70abfa"
+      WORKLOAD_IDENTITY_ID: "f7c1f6ca-a85f-4a03-8adc-13623bcb1c55"
