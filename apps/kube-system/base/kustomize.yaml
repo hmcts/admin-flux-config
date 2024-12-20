@@ -1,0 +1,17 @@
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1
+kind: Kustomization
+metadata:
+  name: kube-system
+  namespace: flux-system
+spec:
+  prune: true
+  sourceRef:
+    kind: GitRepository
+    name: kube-system-flux-config
+  interval: 10m0s
+  path: ./apps/kube-system/${ENVIRONMENT}/${CLUSTER}
+  postBuild:
+    substitute:
+      NAMESPACE: "kube-system"
+      WI_NAME: "kube-system"
