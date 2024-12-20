@@ -4,7 +4,7 @@ metadata:
   name: sds-tenant
   namespace: flux-system
 spec:
-  path: ./clusters/sbox/${CLUSTER}
+  path: ./clusters/sbox/01
   postBuild:
     substitute:
       ENVIRONMENT: "sbox"
