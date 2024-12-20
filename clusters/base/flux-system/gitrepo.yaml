@@ -8,5 +8,5 @@ metadata:
 spec:
   interval: 1m0s
   ref:
-    branch: master
+    branch: aks-cluster
   url: https://github.com/hmcts/admin-flux-config.git
