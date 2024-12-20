@@ -4,10 +4,10 @@ metadata:
   name: flux-system
   namespace: flux-system
 spec:
-  path: ./clusters/dev/staging/00
+  path: ./clusters/cft/sbox/00
   postBuild:
     substitute:
-      ENVIRONMENT: "staging"
-      WI_ENVIRONMENT: "staging"
+      ENVIRONMENT: "sbox"
+      WI_ENVIRONMENT: "sbox"
       CLUSTER: "00"
-      TENANT: "dev"
+      TENANT: "cft"

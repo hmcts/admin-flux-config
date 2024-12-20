@@ -6,6 +6,6 @@ metadata:
 spec:
   postBuild:
     substitute:
-      ENVIRONMENT: "staging"
-      WI_ENVIRONMENT: "staging"
+      ENVIRONMENT: "sbox"
+      WI_ENVIRONMENT: "sbox"
       CLUSTER: "00"
