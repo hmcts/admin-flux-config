@@ -11,3 +11,5 @@ spec:
       WI_ENVIRONMENT: "sbox"
       CLUSTER: "01"
       TENANT: "sds"
+      ENV_MONITOR_CHANNEL: "aks-monitor-sbox"
+
