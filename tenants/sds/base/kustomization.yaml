@@ -5,6 +5,3 @@ resources:
   - ../../base
   - sds-flux-config-repo.yaml
   - sds-tenant.yaml
-
-patches:
-  - path: kustomize.yaml

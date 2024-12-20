@@ -1,14 +1,14 @@
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
 metadata:
-  name: dev2-tenant
+  name: sds-tenant
   namespace: flux-system
 spec:
-  path: ./dev2/staging
+  path: ./sds/sbox
   postBuild:
     substitute:
-      ENVIRONMENT: "staging"
-      WI_ENVIRONMENT: "staging"
-      CLUSTER: "00"
-      KEYVAULT_ENVIRONMENT: "staging"
-      TENANT: "dev"
+      ENVIRONMENT: "sbox"
+      WI_ENVIRONMENT: "sbox"
+      CLUSTER: "01"
+      KEYVAULT_ENVIRONMENT: "sbox"
+      TENANT: "sds"
