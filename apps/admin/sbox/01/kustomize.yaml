@@ -8,4 +8,4 @@ spec:
     substitute:
       ENVIRONMENT: "sbox"
       WI_ENVIRONMENT: "sbox"
-      CLUSTER: "00"
+      CLUSTER: "01"
