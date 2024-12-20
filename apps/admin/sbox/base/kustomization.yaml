@@ -8,3 +8,6 @@ resources:
 - ../../hello-kubernetes
 # - ../../kube-slack
 - ../../traefik-crds
+
+patches:
+  - path: kustomize.yaml
