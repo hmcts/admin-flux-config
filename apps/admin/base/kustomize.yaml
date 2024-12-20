@@ -15,3 +15,4 @@ spec:
     substitute:
       NAMESPACE: "admin"
       WI_NAME: "admin"
+      WORKLOAD_IDENTITY_ID: "f7c1f6ca-a85f-4a03-8adc-13623bcb1c55"

@@ -8,3 +8,4 @@ resources:
 
 patches:
 - path: kustomize.yaml
+- path: ../../../../apps/admin/sbox/01/kustomize.yaml

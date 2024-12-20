@@ -4,3 +4,4 @@ resources:
 - ../base
 patches:
 - path: 01-traefik2.yaml
+
