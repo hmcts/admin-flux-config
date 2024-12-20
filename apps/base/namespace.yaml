@@ -4,4 +4,6 @@ kind: Namespace
 metadata:
   labels:
     toolkit.fluxcd.io/tenant: ${TENANT}
+    slackChannel: ${TEAM_NOTIFICATION_CHANNEL}
+    hmcts.github.com/envInjector: ${ENV_INJECTOR:-enabled}
   name: ${NAMESPACE}
