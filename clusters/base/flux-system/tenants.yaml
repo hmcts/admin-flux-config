@@ -9,5 +9,5 @@ spec:
   sourceRef:
     kind: GitRepository
     name: admin-flux-config
-  path: ./tenants/${TENANT}/${ENVIRONMENT}
+  path: ./tenants/${TENANT}/${ENVIRONMENT}/${CLUSTER}
   prune: true
