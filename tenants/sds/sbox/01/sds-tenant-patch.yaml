@@ -12,3 +12,4 @@ spec:
       CLUSTER: "01"
       KEYVAULT_ENVIRONMENT: "sbox"
       TENANT: "sds"
+      ENV_MONITOR_CHANNEL: "aks-monitor-sbox"
