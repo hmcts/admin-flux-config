@@ -9,5 +9,4 @@ spec:
       ENVIRONMENT: "sbox"
       CLUSTER: "01"
       WI_CLUSTER: "01"
-      WI_ENVIRONMENT: "sbox"
       WI_NAME: "admin"
