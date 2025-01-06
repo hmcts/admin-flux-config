@@ -27,3 +27,10 @@ patches:
     target:
       kind: ServiceAccount
       version: v1
+  - patch: |-
+      - op: replace
+        path: /metadata/namespace
+        value: admin
+    target:
+      kind: FederatedIdentityCredential
+      version: v1api20220131preview
