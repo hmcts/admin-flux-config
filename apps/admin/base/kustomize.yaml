@@ -15,3 +15,4 @@ spec:
     substitute:
       NAMESPACE: "admin"
       WI_NAME: "admin"
+      WI_CLUSTER: "01"
