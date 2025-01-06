@@ -3,6 +3,7 @@ kind: Kustomization
 resources:
   - ../base
   - ../../../../apps/admin/sbox/01
+  - ../../../../apps/base/workload-identity
   - ../../../../apps/azureserviceoperator-system/sbox/01
   - ../../../../apps/kube-system/sbox/01
 
