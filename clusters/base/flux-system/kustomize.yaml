@@ -20,4 +20,5 @@ spec:
       ISSUER_URL: "${ISSUER_URL:-not-set-yet}"
       WI_ENVIRONMENT: "${WI_ENVIRONMENT}"
       WI_CLUSTER: "${ENVIRONMENT}-${CLUSTER}"
+      WI_NAME: "flux-system"
       KEYVAULT_ENVIRONMENT: "${KEYVAULT_ENVIRONMENT}"
