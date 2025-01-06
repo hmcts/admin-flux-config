@@ -8,14 +8,11 @@ spec:
   postBuild:
     substitute:
       CLUSTER: "01"
-      CLUSTER_PATH: "${ENVIRONMENT}/${CLUSTER}"
-      CLUSTER_FULL_NAME: "${ENVIRONMENT}-${CLUSTER}"
       ENVIRONMENT: "sbox"
       ENV_MONITOR_CHANNEL: "aks-monitor-sbox"
       ISSUER_URL: "https://uksouth.oic.prod-aks.azure.com/a8140a9e-f1b0-481f-a4de-09e2ee23f7ab/8c44a4cc-f514-43fc-bc82-da3bdd3dfacc"
-      KEYVAULT_ENVIRONMENT: "${ENVIRONMENT}"
+      KEYVAULT_ENVIRONMENT: "sbox"
       TENANT: "sds"
       WORKLOAD_IDENTITY_ID: "f7c1f6ca-a85f-4a03-8adc-13623bcb1c55"
-      WI_CLUSTER: "${ENVIRONMENT}-${CLUSTER}"
       WI_ENVIRONMENT: "sbox"
 
