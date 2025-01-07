@@ -22,4 +22,3 @@ spec:
       WI_NAME: "flux-system"
       WI_ENVIRONMENT: "${WI_ENVIRONMENT:-not-set-yet}"
       NAMESPACE: "flux-system"
-      WI_CLUSTER: "01"
