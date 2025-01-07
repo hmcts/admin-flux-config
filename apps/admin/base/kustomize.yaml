@@ -15,6 +15,5 @@ spec:
     substitute:
       NAMESPACE: "admin"
       WI_NAME: "admin"
-      WI_CLUSTER: "01"
       ISSUER_URL: "${ISSUER_URL:-not-set-yet}"
 
