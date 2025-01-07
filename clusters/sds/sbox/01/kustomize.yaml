@@ -10,7 +10,7 @@ spec:
       CLUSTER: "01"
       ENVIRONMENT: "sbox"
       ENV_MONITOR_CHANNEL: "aks-monitor-sbox"
-      ISSUER_URL: "https://uksouth.oic.prod-aks.azure.com/a8140a9e-f1b0-481f-a4de-09e2ee23f7ab/8c44a4cc-f514-43fc-bc82-da3bdd3dfacc/"
+      ISSUER_URL: "https://uksouth.oic.prod-aks.azure.com/a8140a9e-f1b0-481f-a4de-09e2ee23f7ab/76d8b2e6-6ce0-44cf-94cf-bbeafa79c4fb"
       KEYVAULT_ENVIRONMENT: "sbox"
       TENANT: "sds"
       WI_ENVIRONMENT: "sbox"
