@@ -14,5 +14,4 @@ spec:
       KEYVAULT_ENVIRONMENT: "sbox"
       TENANT: "sds"
       WI_ENVIRONMENT: "sbox"
-      WI_NAME: "sbox-01"
 
