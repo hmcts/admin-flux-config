@@ -6,3 +6,6 @@ resources:
 - kustomize.yaml
 - tenants.yaml
 - charts
+
+patches:
+  - path: patches/kustomize-controller-patch.yaml
