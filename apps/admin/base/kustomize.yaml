@@ -5,6 +5,8 @@ metadata:
   name: admin
   namespace: flux-system
 spec:
+  decryption:
+    provider: sops
   prune: true
   sourceRef:
     kind: GitRepository
