@@ -1,5 +1,7 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
+- chart-job-gitrepo.yaml
 - hmcts-charts-gitrepo.yaml
+- hmcts-stable-charts-gitrepo.yaml
 - toffee-recipe-receiver-gitrepo.yaml

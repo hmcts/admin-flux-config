@@ -1,0 +1,18 @@
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: GitRepository
+metadata:
+  name: hmcts-stable
+  namespace: flux-system
+spec:
+  interval: 5m
+  url: ssh://github.com/hmcts/charts
+  ref:
+    branch: master
+  secretRef:
+    name: git-credentials
+  ignore: |
+    # exclude all
+    /*
+    # include charts directory
+    !/stable/
+    !/incubator/
