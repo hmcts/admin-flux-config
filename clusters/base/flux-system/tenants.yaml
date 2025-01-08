@@ -4,10 +4,23 @@ metadata:
   name: tenants
   namespace: flux-system
 spec:
-  interval: 5m
+  interval: 
   serviceAccountName: kustomize-controller
+  decryption:
+    provider: sops
+  path: ./clusters/${TENANT}/${ENVIRONMENT}/${CLUSTER}
   sourceRef:
     kind: GitRepository
     name: admin-flux-config
-  path: ./tenants/${TENANT}/${ENVIRONMENT}/${CLUSTER}
   prune: true
+  postBuild:
+    substitute:
+      ENVIRONMENT: "${ENVIRONMENT}"
+      CLUSTER: "\"${CLUSTER}\""
+      CLUSTER_PATH: "${ENVIRONMENT}/${CLUSTER}"
+      CLUSTER_FULL_NAME: "${ENVIRONMENT}-${CLUSTER}"
+      ISSUER_URL: "${ISSUER_URL:-not-set-yet}"
+      KEYVAULT_ENVIRONMENT: "${KEYVAULT_ENVIRONMENT}"
+      WI_NAME: "flux-system"
+      WI_ENVIRONMENT: "${WI_ENVIRONMENT:-not-set-yet}"
+      NAMESPACE: "flux-system"
