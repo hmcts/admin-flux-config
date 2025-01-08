@@ -8,7 +8,7 @@ spec:
   prune: true
   sourceRef:
     kind: GitRepository
-    name: kube-system-flux-config
+    name: admin-flux-config
   interval: 10m0s
   path: ./apps/kube-system/${ENVIRONMENT}/${CLUSTER}
   postBuild:
