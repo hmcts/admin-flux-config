@@ -3,9 +3,8 @@ kind: Kustomization
 resources:
 - ../../base/
 - ../../aad-pod-identity
-# - ../../delete-hung-pods
-# - ../../external-dns
-# - ../../kube-slack
+- ../../delete-hung-pods
+- ../../kube-slack
 - ../../traefik-crds
 
 patches:
