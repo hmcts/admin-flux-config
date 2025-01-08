@@ -5,3 +5,4 @@ resources:
 - gotk-components.yaml
 - kustomize.yaml
 - tenants.yaml
+- charts
