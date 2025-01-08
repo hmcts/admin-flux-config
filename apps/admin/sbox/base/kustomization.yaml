@@ -4,7 +4,6 @@ resources:
 - ../../base/
 - ../../aad-pod-identity
 - ../../delete-hung-pods
-- ../../kube-slack/sbox
 - ../../traefik-crds
 
 patches:
